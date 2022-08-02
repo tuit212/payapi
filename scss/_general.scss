@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Public Sans', sans-serif;
+    background-color: #EDF3F8;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 780px 650px; 
+    background-position: top right;
+
+    @media only screen and (max-width:1095px){
+        background-position: top center;
+        background-image: url("../img/background-tablet.png");
+        background-size: 100%;
+    
+    }
+    @media only screen and (max-width:780px){
+        background-position: top center;
+        background-image: url("../img/background-phone.png");
+    }
+}
+
+
+img{
+    object-fit: cover;
+}

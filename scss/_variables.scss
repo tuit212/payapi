@@ -1,0 +1,10 @@
+
+$color:#446DF6;
+
+
+
+@mixin center ($js) {
+    display: flex;
+    align-items: center;
+    justify-content: $js;
+}
